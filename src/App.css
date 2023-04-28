@@ -1,5 +1,33 @@
 :root {
-  --background-color: #01161E;
+  --background-color: black;
   --second-color: #124559;
-  --text-color: #E6E6FA;
-};
+  --text-color: #e6e6fa;
+}
+body,
+html {
+  /* background-color: var(--background-color); */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 17%,
+    rgba(0, 23, 31, 1) 44%,
+    rgba(8, 48, 62, 1) 65%,
+    rgba(23, 67, 84, 1) 76%,
+    rgba(33, 128, 164, 1) 100%
+  );
+  color: var(--text-color);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: var(--second-color);
+  border: none;
+  color: var(--text-color);
+}
+.picOfMe {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
