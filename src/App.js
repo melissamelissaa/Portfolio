@@ -1,5 +1,4 @@
 import "./App.css";
-
 import pic from "./pic.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,32 +14,85 @@ import {
 function App() {
   return (
     <div className="App">
-      <h1 className="heading">Hello, I'm Nini, Junior Front-end Engineer.</h1>
+      <img src={pic} className="picOfMe" />
+      <h1 className="heading">
+        <span className="char">H</span>
+        <span className="char">i</span>
+        <span className="char">,</span>
+        <br />
+        <span className="char">I</span>
+        <span className="char">'</span>
+        <span className="char">m</span>
+        <span> </span>
+        <span className="char">N</span>
+        <span className="char">i</span>
+        <span className="char">n</span>
+        <span className="char">i</span>
+        <span className="char">,</span>
+        <br />
+        <span className="char">W</span>
+        <span className="char">e</span>
+        <span className="char">b</span>
+        <span> </span>
+        <span className="char">D</span>
+        <span className="char">e</span>
+        <span className="char">v</span>
+        <span className="char">e</span>
+        <span className="char">l</span>
+        <span className="char">o</span>
+        <span className="char">p</span>
+        <span className="char">e</span>
+        <span className="char">r</span>
+        <span className="char">.</span>
+      </h1>
       <p className="aboutMe">
-        I currently study at The University Of Georgia, Informatics faculty
-        where I have gained knowledge in C++. Apart from the university, I
-        actively learn and practice on my own. I have done a few online courses
-        that helped me to learn HTML, CSS, JavaScript, React.js, etc. I have
-        also completed several projects where I have developed web applications
-        from scratch. I am eager to learn more and expand my skillset as a
-        Front-End Engineer every day.
+        I actively learn and practice on my own every day. I have done a few
+        online courses completed several{" "}
+        <a
+          className="repoLink"
+          href="https://github.com/melissamelissaa?tab=repositories"
+        >
+          projects
+        </a>{" "}
+        where I have developed web applications from scratch. I am eager to
+        learn more and expand my skillset as a Front-End Engineer every day.
       </p>
-      <button>
-        <FontAwesomeIcon icon={faFilePdf} className="icon" />
-        Resume
-      </button>
+      <a href="" target="_blank" className="btnLink">
+        <button className="btn">
+          <span className="iconForBtn">
+            <FontAwesomeIcon icon={faFilePdf} />
+          </span>
+          <p className="btnText">Resume</p>
+        </button>
+      </a>
 
-      <button>
-        <FontAwesomeIcon icon={faLinkedin} className="icon" />
-        LinkedIn
-      </button>
+      <a
+        href="https://www.linkedin.com/in/nini-chiaberashvili/"
+        target="_blank"
+        className="btnLink"
+      >
+        <button className="btn">
+          <span className="iconForBtn">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </span>
+          <p className="btnText">LinkedIn</p>
+        </button>
+      </a>
 
-      <button>
-        <FontAwesomeIcon icon={faGithub} className="icon" />
-        GitHub
-      </button>
+      <a
+        href="https://github.com/melissamelissaa"
+        target="_blank"
+        className="btnLink"
+      >
+        <button className="btn">
+          <span className="iconForBtn">
+            <FontAwesomeIcon icon={faGithub} />
+          </span>
+          <p className="btnText">GitHub</p>
+        </button>
+      </a>
 
-      <div>
+      <div className="containerOfIcons">
         <a
           target="_blank"
           href="https://www.facebook.com/nini.chiaberashvili.5/"
@@ -66,7 +118,6 @@ function App() {
           <FontAwesomeIcon icon={faPhone} className="icon" />
         </a>
       </div>
-      <img src={pic} className="picOfMe"/>
     </div>
   );
 }
