@@ -57,7 +57,11 @@ function App() {
         where I have developed web applications from scratch. I am eager to
         learn more and expand my skillset as a Front-End Engineer every day.
       </p>
-      <a href="" target="_blank" className="btnLink">
+      <a
+        href="https://drive.google.com/file/d/1RO7zmV1Z2-Ow2pEycfaQfiH1BkIKvjXU/view?usp=share_link"
+        target="_blank"
+        className="btnLink"
+      >
         <button className="btn">
           <span className="iconForBtn">
             <FontAwesomeIcon icon={faFilePdf} />
