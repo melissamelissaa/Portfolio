@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,100&display=swap");
 :root {
   --background-color: rgb(33, 33, 33);
-  --second-color: #00b7ff;
+  --second-color: #017fb1;
+  /* --second-color: red; */
   --text-color: #e6e6fa;
 }
 body,
@@ -14,6 +15,9 @@ html {
   margin-top: 1rem;
   width: 100%;
 }
+.divOfpic {
+  margin: 0 auto;
+}
 .aboutMe {
   color: rgb(175, 174, 174);
 }
@@ -21,8 +25,8 @@ html {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 2.5rem;
   font-family: "Raleway", sans-serif;
+  margin: 0 1.5rem;
 }
 .iconForBtn {
   float: left;
@@ -30,13 +34,11 @@ html {
   padding-top: 5px;
 }
 .btnText {
-  /* font-size: 0.9rem; */
   padding-right: 1.8rem;
 }
 
-button {  
+button {
   border: none;
-
   background-image: linear-gradient(
     to right,
     #085078 0%,
@@ -54,7 +56,7 @@ button {
   display: block;
 }
 .char {
-  transition: .2s;
+  transition: 0.2s;
 }
 .char:hover,
 .icon:hover {
@@ -70,12 +72,16 @@ button {
 }
 .icon {
   font-size: 1.2rem;
-  padding-left: 1rem;
+  padding-left: 1.4rem;
   color: rgb(97, 96, 96);
-  transition: .3s;
+  transition: 0.3s;
 }
 .btnLink {
   text-decoration: none;
+}
+.divOfpic {
+  box-shadow: 1px 1px 300px -46px rgb(28, 123, 161);
+  border-radius: 50%;
 }
 .picOfMe {
   width: 18rem;
@@ -87,5 +93,33 @@ button {
   color: var(--second-color);
   text-decoration: none;
 }
-@media screen and (min-width: 480px) {
+.containerOfIcons {
+  margin-top: 3rem;
+}
+@media screen and (min-width: 700px) {
+  .App {
+    width: 90%;
+    margin: 1rem 5rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .divOfBody {
+    float: left;
+  }
+  .picOfMe {
+    float: right;
+    width: 31rem;
+    height: 70vh;
+  }
+  .heading {
+    font-size: 4rem;
+  }
+  .divOfpic {
+    border-radius: 50%;
+  }
+  .btn{
+    width: 60%;
+  }
 }
