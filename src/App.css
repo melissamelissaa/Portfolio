@@ -2,7 +2,6 @@
 :root {
   --background-color: rgb(33, 33, 33);
   --second-color: #017fb1;
-  /* --second-color: red; */
   --text-color: #e6e6fa;
 }
 body,
@@ -15,10 +14,8 @@ html {
   margin-top: 1rem;
   width: 100%;
 }
-.divOfpic {
-  margin: 0 auto;
-}
 .aboutMe {
+  margin-left: 0.7rem;
   color: rgb(175, 174, 174);
 }
 .App {
@@ -67,9 +64,6 @@ button {
   color: #fff;
   text-decoration: none;
 }
-.containerOfIcons {
-  margin-top: 1rem;
-}
 .icon {
   font-size: 1.2rem;
   padding-left: 1.4rem;
@@ -80,6 +74,7 @@ button {
   text-decoration: none;
 }
 .divOfpic {
+  margin: 0 auto;
   box-shadow: 1px 1px 300px -46px rgb(28, 123, 161);
   border-radius: 50%;
 }
@@ -102,14 +97,9 @@ button {
     margin: 1rem 5rem;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-  }
-  .divOfBody {
-    float: left;
+    gap: 4rem;
   }
   .picOfMe {
-    float: right;
     width: 31rem;
     height: 70vh;
   }

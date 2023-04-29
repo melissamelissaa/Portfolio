@@ -17,7 +17,7 @@ function App() {
       <div className="divOfpic">
         <img src={pic} className="picOfMe" />
       </div>
-      
+
       <div className="divOfBody">
         <h1 className="heading">
           <span className="char">H</span>
@@ -50,8 +50,8 @@ function App() {
           <span className="char">.</span>
         </h1>
         <p className="aboutMe">
-          I actively learn and practice on my own every day. I have done a few
-          online courses completed several{" "}
+          I actively learn and practice on my own. I have done a few
+          online courses and completed several{" "}
           <a
             className="repoLink"
             href="https://github.com/melissamelissaa?tab=repositories"
