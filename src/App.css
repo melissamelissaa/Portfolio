@@ -63,6 +63,7 @@ button {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 .icon {
   font-size: 1.2rem;
