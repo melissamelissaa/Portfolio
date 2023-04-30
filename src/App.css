@@ -79,7 +79,7 @@ button {
   border-radius: 50%;
 }
 .picOfMe {
-  width: 18rem;
+  width: 34vh;
   height: 34vh;
   margin: 0 auto;
   border-radius: 50%;
@@ -100,7 +100,7 @@ button {
     gap: 4rem;
   }
   .picOfMe {
-    width: 31rem;
+    width: 70vh;
     height: 70vh;
   }
   .heading {
