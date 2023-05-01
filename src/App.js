@@ -11,6 +11,8 @@ import {
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
+import { Tooltip } from "react-bootstrap";
+
 function App() {
   return (
     <div className="App">
@@ -50,11 +52,12 @@ function App() {
           <span className="char">.</span>
         </h1>
         <p className="aboutMe">
-          I actively learn and practice on my own. I have done a few
-          online courses and completed several{" "}
+          I actively learn and practice on my own. I have done a few online
+          courses and completed several{" "}
           <a
             className="repoLink"
             href="https://github.com/melissamelissaa?tab=repositories"
+            target="_blank"
           >
             projects
           </a>{" "}
@@ -107,21 +110,26 @@ function App() {
           >
             <FontAwesomeIcon icon={faFacebook} className="icon" />
           </a>
+
           <a target="_blank" href="https://github.com/melissamelissaa">
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
+
           <a target="_blank" href="https://t.me/NiniChiaberashvili2004">
             <FontAwesomeIcon icon={faTelegram} className="icon" />
           </a>
+
           <a
             target="_blank"
             href="https://www.linkedin.com/in/nini-chiaberashvili/"
           >
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
+
           <a target="_blank" href="mailto: ninichiaberashvili2002@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </a>
+
           <a target="_blank" href="tel:+995598-897-101">
             <FontAwesomeIcon icon={faPhone} className="icon" />
           </a>
