@@ -96,8 +96,9 @@ button {
 .containerOfIcons {
   margin-top: 3rem;
   display: flex;
+  margin-bottom: 3rem;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1005px) {
   .App {
     width: 90%;
     margin: 1rem 5rem;
