@@ -63,6 +63,7 @@ button {
 .icon:hover {
   color: var(--second-color);
 }
+
 .btn:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
@@ -80,7 +81,7 @@ button {
 }
 .divOfpic {
   margin: 0 auto;
-  box-shadow: 1px 1px 300px -46px rgb(28, 123, 161);
+  box-shadow: 1px 1px 300px -20px rgb(28, 123, 161);
   border-radius: 50%;
 }
 .picOfMe {
