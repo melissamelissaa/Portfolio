@@ -99,6 +99,16 @@ button {
   display: flex;
   margin-bottom: 3rem;
 }
+#link {
+  text-decoration: none;
+  color: rgb(146, 143, 143);
+}
+.PortfolioGhIcon {
+  font-size: 1.2rem;
+}
+.sourceDiv {
+  margin: 0 0 2rem 1.3rem;
+}
 @media screen and (min-width: 1005px) {
   .App {
     width: 90%;

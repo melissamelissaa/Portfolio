@@ -134,7 +134,13 @@ function App() {
             <FontAwesomeIcon icon={faPhone} className="icon" />
           </a>
         </div>
+        <a href="https://github.com/melissamelissaa/Portfolio" id="link">
+        <div className="sourceDiv" >
+        <FontAwesomeIcon icon={faGithub} className="PortfolioGhIcon" />&nbsp; GitHub
+        </div>
+        </a>
       </div>
+
     </div>
   );
 }
