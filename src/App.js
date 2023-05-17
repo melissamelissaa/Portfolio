@@ -64,44 +64,47 @@ function App() {
           where I have developed web applications from scratch. I am eager to
           learn more and expand my skillset as a Front-End Engineer every day.
         </p>
-        <a
-          href="https://drive.google.com/file/d/1-OzV3mGdYV0dykk_QzJYYPdjKk0STa2U/view?usp=sharing"
-          target="_blank"
-          className="btnLink"
-        >
-          <button className="btn">
-            <span className="iconForBtn">
-              <FontAwesomeIcon icon={faFilePdf} />
-            </span>
-            <p className="btnText">Resume</p>
-          </button>
-        </a>
 
-        <a
-          href="https://www.linkedin.com/in/nini-chiaberashvili/"
-          target="_blank"
-          className="btnLink"
-        >
-          <button className="btn">
-            <span className="iconForBtn">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </span>
-            <p className="btnText">LinkedIn</p>
-          </button>
-        </a>
+        <div className="btnsContainer">
+          <a
+            href="https://drive.google.com/file/d/1-OzV3mGdYV0dykk_QzJYYPdjKk0STa2U/view?usp=sharing"
+            target="_blank"
+            className="btnLink"
+          >
+            <button className="btn">
+              <span className="iconForBtn">
+                <FontAwesomeIcon icon={faFilePdf} />
+              </span>
+              <p className="btnText">Resume</p>
+            </button>
+          </a>
 
-        <a
-          href="https://github.com/melissamelissaa"
-          target="_blank"
-          className="btnLink"
-        >
-          <button className="btn">
-            <span className="iconForBtn">
-              <FontAwesomeIcon icon={faGithub} />
-            </span>
-            <p className="btnText">GitHub</p>
-          </button>
-        </a>
+          <a
+            href="https://www.linkedin.com/in/nini-chiaberashvili/"
+            target="_blank"
+            className="btnLink"
+          >
+            <button className="btn">
+              <span className="iconForBtn">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </span>
+              <p className="btnText">LinkedIn</p>
+            </button>
+          </a>
+
+          <a
+            href="https://github.com/melissamelissaa"
+            target="_blank"
+            className="btnLink"
+          >
+            <button className="btn">
+              <span className="iconForBtn">
+                <FontAwesomeIcon icon={faGithub} />
+              </span>
+              <p className="btnText">GitHub</p>
+            </button>
+          </a>
+        </div>
 
         <div className="containerOfIcons">
           <div>
