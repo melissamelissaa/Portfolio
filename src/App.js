@@ -65,7 +65,7 @@ function App() {
           learn more and expand my skillset as a Front-End Engineer every day.
         </p>
         <a
-          href="https://drive.google.com/file/d/1RO7zmV1Z2-Ow2pEycfaQfiH1BkIKvjXU/view?usp=share_link"
+          href="https://drive.google.com/file/d/1-OzV3mGdYV0dykk_QzJYYPdjKk0STa2U/view?usp=sharing"
           target="_blank"
           className="btnLink"
         >
