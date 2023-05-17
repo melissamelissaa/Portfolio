@@ -134,7 +134,7 @@ function App() {
             <FontAwesomeIcon icon={faPhone} className="icon" />
           </a>
         </div>
-        <a href="https://github.com/melissamelissaa/Portfolio" id="link">
+        <a href="https://github.com/melissamelissaa/Portfolio" id="link" target="_blank">
         <div className="sourceDiv" >
         <FontAwesomeIcon icon={faGithub} className="PortfolioGhIcon" />&nbsp; Source
         </div>
