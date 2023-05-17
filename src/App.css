@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 :root {
   --background-color: rgb(33, 33, 33);
   --second-color: #017fb1;
@@ -65,7 +66,7 @@ button {
 }
 
 .btn:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
@@ -97,17 +98,33 @@ button {
 .containerOfIcons {
   margin-top: 3rem;
   display: flex;
+  flex-direction: column;
   margin-bottom: 3rem;
+  gap: 0.8rem;
 }
 #link {
   text-decoration: none;
-  color: rgb(146, 143, 143);
+  color: rgb(97, 96, 96);
 }
 .PortfolioGhIcon {
   font-size: 1.2rem;
 }
 .sourceDiv {
-  margin: 0 0 2rem 1.3rem;
+  margin: 0 0 2rem -0.5rem;
+}
+.emailPhoneDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+a {
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  color: rgb(97, 96, 96);
+  transition: 0.2s;
+}
+.infoTxt:hover {
+  color: var(--second-color);
 }
 @media screen and (min-width: 1005px) {
   .App {
@@ -127,7 +144,7 @@ button {
   .divOfpic {
     border-radius: 50%;
   }
-  .btn{
+  .btn {
     width: 60%;
   }
 }

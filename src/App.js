@@ -104,43 +104,55 @@ function App() {
         </a>
 
         <div className="containerOfIcons">
+          <div>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/nini.chiaberashvili.5/"
+            >
+              <FontAwesomeIcon icon={faFacebook} className="icon" />
+            </a>
+
+            <a target="_blank" href="https://github.com/melissamelissaa">
+              <FontAwesomeIcon icon={faGithub} className="icon" />
+            </a>
+
+            <a target="_blank" href="https://t.me/NiniChiaberashvili2004">
+              <FontAwesomeIcon icon={faTelegram} className="icon" />
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/nini-chiaberashvili/"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="icon" />
+            </a>
+          </div>
+          <div className="emailPhoneDiv">
+            <a target="_blank" href="tel:+995598-897-101" className="infoTxt">
+              <FontAwesomeIcon icon={faPhone} className="icon" />
+              &nbsp; (+995) 598-897-101
+            </a>
+          </div>
           <a
             target="_blank"
-            href="https://www.facebook.com/nini.chiaberashvili.5/"
+            href="mailto: ninichiaberashvili2002@gmail.com"
+            className="infoTxt"
           >
-            <FontAwesomeIcon icon={faFacebook} className="icon" />
-          </a>
-
-          <a target="_blank" href="https://github.com/melissamelissaa">
-            <FontAwesomeIcon icon={faGithub} className="icon" />
-          </a>
-
-          <a target="_blank" href="https://t.me/NiniChiaberashvili2004">
-            <FontAwesomeIcon icon={faTelegram} className="icon" />
-          </a>
-
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/nini-chiaberashvili/"
-          >
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
-          </a>
-
-          <a target="_blank" href="mailto: ninichiaberashvili2002@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
-          </a>
-
-          <a target="_blank" href="tel:+995598-897-101">
-            <FontAwesomeIcon icon={faPhone} className="icon" />
+            &nbsp; ninichiaberashvili2002@gmail.com
           </a>
         </div>
-        <a href="https://github.com/melissamelissaa/Portfolio" id="link" target="_blank">
-        <div className="sourceDiv" >
-        <FontAwesomeIcon icon={faGithub} className="PortfolioGhIcon" />&nbsp; Source
-        </div>
+        <a
+          href="https://github.com/melissamelissaa/Portfolio"
+          id="link"
+          target="_blank"
+        >
+          <div className="sourceDiv">
+            <FontAwesomeIcon icon={faGithub} className="PortfolioGhIcon" />
+            &nbsp; Source
+          </div>
         </a>
       </div>
-
     </div>
   );
 }
