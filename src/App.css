@@ -153,3 +153,9 @@ a {
     width:60%;
   }
 }
+@media (max-width: 382px) {
+  a, .icon{
+    font-size: 13px;
+  }
+  
+}
