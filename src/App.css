@@ -11,6 +11,9 @@ html {
   color: var(--text-color);
 }
 
+.divOfBody {
+  margin-left: -10px;
+}
 .btn {
   height: 3rem;
   margin-top: 1rem;
@@ -56,7 +59,6 @@ button {
   color: white;
   border-radius: 10px;
   display: block;
-
 }
 .char {
   transition: 0.2s;
@@ -110,6 +112,9 @@ button {
 .PortfolioGhIcon {
   font-size: 1.2rem;
 }
+.heading {
+  margin-left: 0.6rem;
+}
 .sourceDiv {
   margin: 0 0 2rem -0.5rem;
 }
@@ -150,12 +155,12 @@ a {
     border-radius: 50%;
   }
   .btn {
-    width:60%;
+    width: 60%;
   }
 }
 @media (max-width: 382px) {
-  a, .icon{
+  a,
+  .icon {
     font-size: 13px;
   }
-  
 }
