@@ -67,7 +67,7 @@ function App() {
 
         <div className="btnsContainer">
           <a
-            href="https://drive.google.com/file/d/1-OzV3mGdYV0dykk_QzJYYPdjKk0STa2U/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KGJ-iD_hkRmKi4h0kHFvlR6cVAAxgwhi/view?usp=sharing"
             target="_blank"
             className="btnLink"
           >
