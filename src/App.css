@@ -28,7 +28,7 @@ html {
 .aboutMe {
   font-size: 19px;
   margin-left: 0.7rem;
-  width: 60%;
+  width: 90%;
   font-weight: bold;
   line-height: 1.9rem;
   color: rgb(175, 174, 174);
@@ -147,6 +147,10 @@ a {
   color: var(--second-color);
 }
 @media screen and (min-width: 1005px) {
+  .aboutMe {
+    width: 60%;
+  }
+
   .heading {
     font-size: 4rem;
   }
