@@ -15,14 +15,27 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
+.app {
+  margin: 0 2rem;
+}
+
 .btn {
   height: 3rem;
   margin-top: 1rem;
+  width: 97%;
 }
 
 .aboutMe {
+  font-size: 19px;
   margin-left: 0.7rem;
+  width: 60%;
+  font-weight: bold;
+  line-height: 1.9rem;
   color: rgb(175, 174, 174);
+}
+
+.btnsContainer {
+  width: auto;
 }
 
 .iconForBtn {
@@ -33,6 +46,7 @@ html {
 
 .btnText {
   padding-right: 1.8rem;
+  font-weight: bold;
   transition: 0.5s;
 }
 
@@ -133,18 +147,13 @@ a {
   color: var(--second-color);
 }
 @media screen and (min-width: 1005px) {
-  .App {
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-
   .heading {
     font-size: 4rem;
   }
 
   .btn {
-    width: 60%;
+    width: 35%;
+    max-width: 35%;
   }
 }
 
