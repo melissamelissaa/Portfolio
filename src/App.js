@@ -1,5 +1,4 @@
 import "./App.css";
-import pic from "./pic.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFilePdf } from "@fortawesome/free-regular-svg-icons";
@@ -11,15 +10,9 @@ import {
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { Tooltip } from "react-bootstrap";
-
 function App() {
   return (
     <div className="App">
-      <div className="divOfpic">
-        <img src={pic} className="picOfMe" />
-      </div>
-
       <div className="divOfBody">
         <h1 className="heading">
           <span className="char">H</span>
@@ -39,6 +32,17 @@ function App() {
           <span className="char">W</span>
           <span className="char">e</span>
           <span className="char">b</span>
+          <span> </span>
+          <span className="char">A</span>
+          <span className="char">n</span>
+          <span className="char">d</span>
+          <span> </span>
+          <span className="char">M</span>
+          <span className="char">o</span>
+          <span className="char">b</span>
+          <span className="char">i</span>
+          <span className="char">l</span>
+          <span className="char">e</span>
           <span> </span>
           <span className="char">D</span>
           <span className="char">e</span>
